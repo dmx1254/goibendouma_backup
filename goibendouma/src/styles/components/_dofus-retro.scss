@@ -1,0 +1,110 @@
+.dofus-retro {
+  .dofus-retro-title {
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  table {
+    border-collapse: collapse;
+    // background-color: white;
+    background: #3f4445;
+    text-align: center;
+    color: #f4f4f4;
+
+    thead {
+      // box-shadow: 0 5px 10px #e1e5ee;
+      background: #0b0809;
+      color: #f4f4f4;
+      th {
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+
+        @media (max-width: 1069px) {
+          padding: 0.8rem 1rem;
+          font-size: 0.8rem;
+        }
+
+        @media (max-width: 907px) {
+          padding: 0.7rem 0.8rem;
+          font-size: 0.7rem;
+        }
+
+        @media (max-width: 769px) {
+          padding: 0.5rem 0.6rem;
+          font-size: 0.6rem;
+        }
+        @media (max-width: 645px) {
+          padding: 0.3rem 0.4rem;
+          font-size: 0.5rem;
+          font-weight: 400;
+        }
+
+        @media (max-width: 500px) {
+          padding: 0.1rem 0.2rem;
+          font-size: 0.45rem;
+        }
+        @media (max-width: 439px) {
+          padding: 0.1rem;
+          font-size: 0.4rem;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      text-align: center;
+      border: 1px solid #8080804d;
+      transition: 0.4s ease-out;
+      &:hover {
+        background: #fddd00;
+        color: #f4f4f4;
+      }
+      td {
+        padding: 1rem 1rem;
+        text-transform: capitalize;
+        @media (max-width: 1069px) {
+          padding: 0.8rem 1rem;
+          font-size: 0.8rem;
+        }
+        @media (max-width: 907px) {
+          padding: 0.7rem 0.8rem;
+          font-size: 0.7rem;
+        }
+        @media (max-width: 769px) {
+          padding: 0.5rem 0.6rem;
+          font-size: 0.6rem;
+        }
+
+        @media (max-width: 645px) {
+          padding: 0.3rem 0.4rem;
+          font-size: 0.5rem;
+          font-weight: 400;
+        }
+        @media (max-width: 500px) {
+          padding: 0.1rem 0.2rem;
+          font-size: 0.5rem;
+        }
+        @media (max-width: 439px) {
+          padding: 0.1rem;
+          font-size: 0.45rem;
+        }
+      }
+      .success {
+        color: #34ef47;
+        font-size: 13px;
+      }
+      .no-success {
+        color: #ff0000;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.quickly {
+  color: #1652f0;
+  font-size: 13px;
+}

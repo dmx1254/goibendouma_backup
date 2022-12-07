@@ -1,0 +1,49 @@
+.footer {
+  bottom: 0px;
+  width: 100%;
+  margin-bottom: 0px;
+  position: static;
+  background: #0b0809;
+  color: #f4f4f4;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  // margin-top: 60px;
+  @media (max-width: 542px) {
+    flex-direction: column-reverse;
+  }
+  div {
+    font-size: 13px;
+    @media (max-width: 458px) {
+      font-size: 10px;
+    }
+  }
+  .footer-bank-payment {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .skrill {
+    }
+    .paypal {
+    }
+
+    .payeer {
+      height: 35px;
+      width: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .bank {
+      height: 35px;
+      width: 40px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: -1px;
+    }
+  }
+}
